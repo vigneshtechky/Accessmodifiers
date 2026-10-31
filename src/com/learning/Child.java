@@ -8,9 +8,12 @@ public class Child {
 //        mom.setName("mother1");
 //        mom.returnName();
 
-        ChildTwo childTwo = new ChildTwo();
-        childTwo.name = "childTwo";
-        System.out.println(childTwo.returnName());
+//        ChildTwo childTwo = new ChildTwo();
+//        childTwo.name = "childTwo";
+//        System.out.println(childTwo.returnName());
+        Parent mom = new Parent();
+        mom.name = "rama";
+
 
 
     }

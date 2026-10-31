@@ -2,10 +2,10 @@ package com.learning.accessmodifiers;
 
 import com.learning.Parent;
 
-public class SecondChild {
+public class SecondChild extends Parent {
     public static void main(String[] args) {
-        Parent mom = new Parent();
-//        mom.name="mot";
-
+        SecondChild sc = new SecondChild();
+        sc.name ="ashok";
     }
 }
+

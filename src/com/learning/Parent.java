@@ -1,14 +1,16 @@
 package com.learning;
 
-//access modifiers
-public class Parent {
-    String name;
+import com.learning.accessmodifiers.SecondChild;
 
-    String returnName() {
+//access modifiers
+public class Parent  {
+   protected String name;
+
+   protected String returnName() {
         return name;
     }
 
-    void setName(String name) {
+   protected void setName(String name) {
         this.name = name;
     }
 
