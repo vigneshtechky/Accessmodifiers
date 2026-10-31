@@ -2,22 +2,14 @@ package com.learning;
 
 //access modifiers
 public class Parent {
-    //default access modifier
-    int age;
-    //public access modifier
-    public String name;
+    private String name;
 
-    //public  access modifier
-    public Parent() {
-
+    private String returnName() {
+        return name;
     }
 
-    //method access modifier(private access modifier)
-    private void printName() {
-        System.out.println("parent name: " + name);
+    private void setName() {
+        this.name = name;
     }
 
-    protected void printAge() {
-        System.out.println("parent age: " + age);
-    }
 }
