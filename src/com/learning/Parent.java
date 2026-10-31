@@ -2,13 +2,13 @@ package com.learning;
 
 //access modifiers
 public class Parent {
-    private String name;
+    String name;
 
-    private String returnName() {
+    String returnName() {
         return name;
     }
 
-    private void setName() {
+    void setName(String name) {
         this.name = name;
     }
 
